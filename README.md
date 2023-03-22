@@ -34,3 +34,14 @@ Pueden alcanzar altas temperaturas durante su funcionamiento y es necesario disi
 Disponen de protecciones contra sobreintensidad, cortocircuito, sobretensión y sobretemperatura. En general, son dispositivos robustos y fiables siempre que realicemos la conexión correctamente, e incorporemos disipación de calor si es necesario. 
 Son muy empleados en una gran variedad de proyectos que requieren el uso de motores paso a paso, como máquinas de CNC, plotters, robots que dibujan, impresoras 3D, y escáneres 3D.
 También son un componente frecuente en proyectos para controlar robots y vehículos, especialmente en aquellos que requieren variar de forma individual la velocidad de cada rueda, como en vehículos con omniwheel o mecannum wheels.
+
+PRECIO
+
+Es posible encontrar un driver A4988 por 0.75€, en vendedores internacionales en eBay o AliExpress.
+![image](https://user-images.githubusercontent.com/89666637/227062293-45ae4d4e-609c-48f3-84a6-daae46915564.png)
+
+¿CÓMO FUNCIONA EL A4988?
+
+Como en la mayoría de los controladores de motores el componente fundamental es un puente-H. En el caso del A4988 destinados a controlar motores paso a paso, se dispone de dos puentes-H (uno por canal) constituidos por transistores MOSFET.
+Sin embargo, a diferencia de controladores más simples como el L298N o el TB6612FNG, que presenta una electrónica relativamente simple, el A4988 tienen una electrónica considerablemente más compleja.
+![image](https://user-images.githubusercontent.com/89666637/227062852-8b45051d-ba61-4c5b-abce-e527d7509d6e.png)
