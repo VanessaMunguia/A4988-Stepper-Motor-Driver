@@ -56,6 +56,7 @@ En el caso del A4988 el esquema es el siguiente:
 ![image](https://user-images.githubusercontent.com/89666637/227095218-62c9b806-a9f5-44fa-aa5c-de4e31909ea6.png)
 
 Que visto desde Arduino quedaría de la siguiente forma:
+
 ![image](https://user-images.githubusercontent.com/89666637/227119254-b8128b04-3884-40a8-8449-c472ed104238.png)
 
 EJEMPLO
