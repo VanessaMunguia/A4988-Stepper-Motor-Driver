@@ -45,3 +45,13 @@ Es posible encontrar un driver A4988 por 0.75€, en vendedores internacionales 
 Como en la mayoría de los controladores de motores el componente fundamental es un puente-H. En el caso del A4988 destinados a controlar motores paso a paso, se dispone de dos puentes-H (uno por canal) constituidos por transistores MOSFET.
 Sin embargo, a diferencia de controladores más simples como el L298N o el TB6612FNG, que presenta una electrónica relativamente simple, el A4988 tienen una electrónica considerablemente más compleja.
 ![image](https://user-images.githubusercontent.com/89666637/227062852-8b45051d-ba61-4c5b-abce-e527d7509d6e.png)
+
+Uno de los motivos para esta complejidad es que únicamente requieren dos señales digitales de control para hacer funcionar el motor, y que incorporan las protecciones necesarias para su manejo.
+El otro motivo de la complejidad de su electrónica es que incorporan funciones especialmente diseñadas para el control de motores paso a paso, como son el regulador de intensidad y el Microstepping. Veremos estas funcionalidades a continuación.
+
+ESQUEMA DE MONTAJE
+
+El esquema de conexión de ambos controladores es muy similar. Incluso, como hemos dicho, bajo ciertas consideraciones ambos dispositivos son compatibles entre si.
+En el caso del A4988 el esquema es el siguiente:
+![image](https://user-images.githubusercontent.com/89666637/227095218-62c9b806-a9f5-44fa-aa5c-de4e31909ea6.png)
+
