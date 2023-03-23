@@ -60,5 +60,4 @@ Que visto desde Arduino quedaría de la siguiente forma:
 ![image](https://user-images.githubusercontent.com/89666637/227119254-b8128b04-3884-40a8-8449-c472ed104238.png)
 
 EJEMPLO
-
-![image](https://user-images.githubusercontent.com/89666637/227120288-22c6f4c1-8242-486b-8fa3-23b58a22d640.png)
+https://wokwi.com/projects/334512724199342674
