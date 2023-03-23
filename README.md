@@ -59,40 +59,5 @@ Que visto desde Arduino quedaría de la siguiente forma:
 ![image](https://user-images.githubusercontent.com/89666637/227119254-b8128b04-3884-40a8-8449-c472ed104238.png)
 
 EJEMPLO
-const int dirPin = 8;
-const int stepPin = 9;
 
-const int steps = 200;
-int stepDelay;
-
-void setup() {
-   // Marcar los pines como salida
-   pinMode(dirPin, OUTPUT);
-   pinMode(stepPin, OUTPUT);
-}
-
-void loop() {
-   //Activar una direccion y fijar la velocidad con stepDelay
-   digitalWrite(dirPin, HIGH);
-   stepDelay = 250;
-   // Giramos 200 pulsos para hacer una vuelta completa
-   for (int x = 0; x < steps * 1; x++) {
-      digitalWrite(stepPin, HIGH);
-      delayMicroseconds(stepDelay);
-      digitalWrite(stepPin, LOW);
-      delayMicroseconds(stepDelay);
-   }
-   delay(1000);
-
-   //Cambiamos la direccion y aumentamos la velocidad
-   digitalWrite(dirPin, LOW);
-   stepDelay = 150;
-   // Giramos 400 pulsos para hacer dos vueltas completas
-   for (int x = 0; x < steps * 2; x++) {
-      digitalWrite(stepPin, HIGH);
-      delayMicroseconds(stepDelay);
-      digitalWrite(stepPin, LOW);
-      delayMicroseconds(stepDelay);
-   }
-   delay(1000);
-}
+![image](https://user-images.githubusercontent.com/89666637/227120288-22c6f4c1-8242-486b-8fa3-23b58a22d640.png)
